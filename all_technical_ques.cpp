@@ -30,8 +30,6 @@ int main()
  //  return 0;
 //}
 
-
-
 /* Prime No.*/
 /*#include<iostream>
 using namespace std;
