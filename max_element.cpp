@@ -13,6 +13,7 @@ int main()
     {
         cin>>a[i];
     }
+    // Max is a member variable
     max=a[0];
     for(i=0;i<size;i++)
     {
