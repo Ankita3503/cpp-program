@@ -6,16 +6,13 @@ using namespace std;
  private:
  int r,marks;
  public:
-  
-   
+
 void display()
-   
  	{
  	r=3;
  	marks=90;
 	 }
-};
- 	
+};	
 /*void enter()
      cout<<"r="<<r;
  	cout<<"marks="<<marks;	 	
@@ -24,6 +21,5 @@ void display()
  {
  student obj;
  obj.display();
- 
  getch();	
  }
