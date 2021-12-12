@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int age;
-    cout<<"enter your age";
+    cout<<"enter your age for  checking voting eligibility";
     cin>>age;
     if(age>=18)
     {
@@ -11,7 +11,7 @@ int main()
     }
     else
     {
-        cout<<"you are not eligible";
+        cout<<"you are not eligible for voting ";
     }
 return 0;
 }
