@@ -11,8 +11,6 @@ using namespace std;
     
     float x[10];
     int i,n;
-    
-    
     void swap34(float *ptr1, float  *ptr2 ); /* Function Declaration */
     
     printf("How many Elements...\n");
