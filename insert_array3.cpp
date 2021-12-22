@@ -5,24 +5,24 @@ using namespace std;
 int main()
 {
     int  size,item,i,pos;
-    cout<<"enter the size of array";
+    cout<<"enter the size of array\n";
     cin>>size;
     int a[size];
-    cout<<"enter the element of array";
+    cout<<"Enter the element of array\n";
     for( i=0;i<size-1;i++)
     {
         cin>>a[i];
     }
-    cout<<"enter the element to be inserted =";
+    cout<<"Enter the element to be inserted = ";
     cin>>item;
-    cout<<"enter the position where item is to be instered ";
+    cout<<"Enter the position where item is to be instered\n ";
     cin>>pos;
    for(i=size;i>=pos;i--)
        {
      a[i]=a[i-1];
        }
        a[pos-1]=item;
-    cout<<"new array :-\n";
+    cout<<"New array :-\n";
     for(i=0;i<size;i++)
     {
         cout<<a[i]<<"\n";
