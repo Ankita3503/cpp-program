@@ -17,16 +17,16 @@ int main()
 {
     time ob;
     int h= ob.take_time();
-    switch(h>=12&&h<=24)
+    switch((h>=12)&&(h<=24))
     {
         case 1:
-        cout<<"time is in PM";
+        cout<<"Time is in PM";
         break;
         case 0:
-        switch(h>=0&&h<=11)
+        switch((h>=0)&&(h<=11))
         {
             case 1:
-            cout<<"time is in AM";
+            cout<<"Time is in AM";
             break;
         }
     }
