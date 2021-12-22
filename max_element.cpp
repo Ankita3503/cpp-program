@@ -5,15 +5,15 @@ using namespace std;
 int main()
 {
     int i,j,size,max;
-    cout<<"enter the size=";
+    cout<<"Enter the size=";
     cin>>size;
      int a[size];
-    cout<<"enter the elements\n";
+    cout<<"Enter the elements\n";
     for(i=0;i<size;i++)
     {
         cin>>a[i];
     }
-    // Max is a member variable
+    // Max is a  DATA member variable
     max=a[0];
     for(i=0;i<size;i++)
     {
@@ -22,6 +22,6 @@ int main()
         max=a[i];
     }
     }
-    cout<<"max element is \n"<<max;
+    cout<<"Max element is \n"<<max;
     return 0;
 }
