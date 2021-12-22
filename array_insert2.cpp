@@ -5,10 +5,10 @@ using namespace std;
 int main()
 {
     int  size,item,i;
-    cout<<"enter the size of array";
+    cout<<"Enter the size of array\n";
     cin>>size;
     int a[size];
-    cout<<"enter the element of array";
+    cout<<"Enter the element of array\n";
     for( i=0;i<size-1;i++)
     {
         cin>>a[i];
