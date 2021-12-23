@@ -4,7 +4,7 @@ class a
 {
     public:
     
-    void x()
+    void name()
     {
         cout<<"MY NAME IS ANKITA";
     }
