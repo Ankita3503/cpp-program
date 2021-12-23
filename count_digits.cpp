@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int n,sum=0,r,count=0,t;
-    cout<<"Enter any number ";
+    cout<<"Enter any number  to  count  number of digits";
     cin>>n;
 
     while(n>0)
@@ -14,6 +14,6 @@ int main()
        count++;
        n=n/10;
     }
-    cout<<"no. of digits="<<count;
+    cout<<"No. of digits="<<count;
     return 0;
 }
