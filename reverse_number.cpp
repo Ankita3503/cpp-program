@@ -4,10 +4,9 @@ using namespace std;
 int main()
 {
    int num,r;
-  
    cout<<"Enter any number\n";
    cin>>num;
-   cout<<"reverse number=";
+   cout<<"Reverse number= ";
   while(num>0)
   {
       r=num%10;
