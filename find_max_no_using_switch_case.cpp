@@ -9,7 +9,7 @@ class maximum
       {
           cout<<"enter any number";
           cin>>x>>y;
-      //   return(max(x,y));
+      //   return(max(x,y));   //using inbuilt function
       if(x>y)
       {
           return 0;
@@ -28,13 +28,11 @@ class maximum
     switch(ans)
     { 
         case 0:
-
             cout<<"x is greater";
             break;
         case 1:
             cout<<"y is greater";
       break;
-
     }
     return 0;
 }
