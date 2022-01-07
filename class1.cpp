@@ -1,17 +1,15 @@
 #include<iostream>
 using namespace std;
-class a
-{
+class name
+{    
     public:
-    
-    void name()
+    name()
     {
-        cout<<"MY NAME IS ANKITA";
+       cout<<"MY NAME IS ANKITA";
     }
 };
 int main()
 {
-    a ob;
-    ob.x();
+    name ob;
     return 0;
 }
