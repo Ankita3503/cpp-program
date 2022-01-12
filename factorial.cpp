@@ -3,15 +3,16 @@
 using namespace std;
 int main()
 {
-int a,factorial=1;
-cout<<"enter any number";
-cin>>a;
-while(a>1)
+int num,factorial=1,t;
+cout<<"Enter any number";
+cin>>num;
+t=num;
+while(num>1)
     {
-    factorial=	factorial*a;
-    a--;
-	}	
+    factorial=factorial*num;
+    num--;
+    }	
 
-	cout<<"this is factorial number"<<factorial;
-	getch();
+cout<<"Factorial  of "<<t<<"="<<factorial;
+return 0;
 }
