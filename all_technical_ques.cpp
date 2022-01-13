@@ -8,9 +8,9 @@ int main()
    cin>>year;
    /*logic change*/
   /* if(year%4==0&&year%100==0||year%400==0)
-   cout<<"leap year";
+   cout<<"Leap year";
    else
-   cout<<"not a leap year";
+   cout<<"Not a leap year";
    /*if(year%4==0)
    {
        if(year%100)
@@ -23,7 +23,7 @@ int main()
         cout<<"Not a leap year";   
        }
        else
-       cout<<"leap year";
+       cout<<"Leap year";
    }
    else
    cout<<"Not a leap year";*/
@@ -50,7 +50,7 @@ int main()
         cout<<"Prime number";
     }
     else
-    cout<<" Not prime number";
+    cout<<" Not a prime number";
     return 0;
 }*/
 
@@ -99,10 +99,10 @@ int main()
     cout<<"sum"<<sum;
     if(t==sum)
     {
-        cout<<"armstrong number";
+        cout<<"Armstrong number";
     }
     else
-    cout<<"not a armstrong number";
+    cout<<"Not a armstrong number";
  return 0;
 }    */
 
@@ -175,7 +175,7 @@ int main()
         max=a[i];
     }
     }
-    cout<<"max element is \n"<<max;
+    cout<<"Max element is \n"<<max;
     return 0;
 }*/
 
@@ -189,19 +189,19 @@ int main()
     {
         cin>>a[i];
     }
-    cout<<" search item ";
+    cout<<"  Enter the search item ";
     cin>>item;
     for(i=0;i<5;i++)
     {
     if(item==a[i])
     {
-      cout<<" search element is found at index "<<i+1; 
+      cout<<" Search element is found at index "<<i+1; 
       break; 
     }
     }
     if(i==5)
     {
-        cout<<"not found";
+        cout<<"Not found";
     }
    
     return 0;
@@ -225,7 +225,7 @@ int main()
         mid=(beg+end)/2;
         if(item==a[mid])
         {
-            cout<<"element found";
+            cout<<"Element found";
             break;
         }
       if(item<a[mid])
@@ -239,7 +239,7 @@ int main()
     }
     if(beg>end)
     {
-      cout<<"not found";
+      cout<<"Not found";
     }
     return 0;
  
