@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
- int a='A';//char a='k';
- cout<<a;   //cout<<int(a);
+ int a='A';       //char a='k';
+ cout<<a;         //cout<<int(a);
  return 0;    
 } */
 
