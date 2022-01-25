@@ -1,19 +1,14 @@
-/**********************************************************
- Statement - Calculate Size of Structure
- Programmer - Vineet Choudhary
- Written For - http://developerinsider.co
- **********************************************************/
-
-
 #include<iostream>
 using namespace std;
-struct stud {
+struct stud 
+{
     int roll;
     char name[10];
     int marks;
 };
 
-int main() {
+int main()
+{
     int size;
     struct stud s;
     
