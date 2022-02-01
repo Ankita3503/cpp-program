@@ -1,7 +1,7 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
+int main() 
+{
 	int T,num;
 	cin>>T;
 	while(T--)
