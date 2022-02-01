@@ -8,7 +8,7 @@ int main()
 	cout<<"Number of days = ";
 	cin>>day;
 	int a[item_sold][day];
-	cout<<"profit made each days-\n";
+	cout<<"Profit made each days-\n";
 	for(i=0;i<item_sold;i++)
 	{
 		for(j=0;j<day;j++)
@@ -25,7 +25,7 @@ int main()
 		}
 		cout<<"\n";
 	}
-	cout<<"minimum number of sales of each day\n";
+	cout<<"Minimum number of sales of each day\n";
 	for(i=0;i<day;i++)
 	{
 		int min=a[0][i];
