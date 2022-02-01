@@ -1,13 +1,13 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
+int main() 
+{
 	int T;
 	cin>>T;
 	while(T--)
 	{
 	    int hardness,tensile_strength;
-	   float carbon_content;
+	    float carbon_content;
 	    cin>>hardness>>carbon_content>>tensile_strength;
 	    if(hardness>50 && carbon_content<0.7 && tensile_strength>5600)
 	    {
