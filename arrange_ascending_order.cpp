@@ -14,10 +14,7 @@ int main()
     {
         cin>>a[i];
     }
-    
-    
-       sort(a,a+T);
-   
+       sort(a,a+T);// sort function
     for(int i=0;i<T;i++)
     {
         cout<<a[i]<<endl;
