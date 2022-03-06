@@ -7,7 +7,6 @@ int main()
     int num;
     int last;
     int  first;
- 
     int count=0;
     cin>>T;
     while(T--)
