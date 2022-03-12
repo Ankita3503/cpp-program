@@ -3,9 +3,9 @@ using namespace std;
 int main()
 {
     int i,j ,row,column;
-    cout<<"enter the no of row and column";
+    cout<<"Enter the no of row and column";
     cin>>row>>column;
-    cout<<"enter the elements of 2d array";
+    cout<<"Enter the elements of 2d array";
     int a[row][column];
     for(i=0;i<row;i++)
     {
@@ -16,7 +16,7 @@ int main()
     }
     if(row==column)
     {
-    cout<<"matix representation of 2d array\n";
+    cout<<"Matix representation of 2d array\n";
     for(i=0;i<row;i++)
     {
         for(j=0;j<column;j++)
@@ -37,7 +37,6 @@ int main()
         }
         }
     }
-    cout<<"sum of diagonal element="<<sum;
-    
+    cout<<"Sum of diagonal element = "<<sum;
   return 0;
 }
