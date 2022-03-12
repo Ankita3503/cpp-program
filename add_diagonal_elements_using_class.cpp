@@ -8,16 +8,14 @@ class matrix
     void insize()
     {
 
-        cout<<"enter the size  of square matrix";
+        cout<<"Enter the size  of square matrix";
         cin>>size;
 
     }
- 
- 
     int  take_matrix()
     {
         int a[size][size];
-        cout<<"enter the elements of matrix \n";
+        cout<<"Enter the elements of matrix \n";
         for(i=0;i<size;i++)
         {
             for(j=0;j<size;j++)
@@ -25,8 +23,6 @@ class matrix
                 cin>>a[i][j];
             }
         }
-
-        
         for(i=0;i<size;i++)
         {
             for(j=0;j<size;j++)
@@ -47,14 +43,13 @@ class matrix
             }
         }
         return sum;
-    }
-   
+    }  
 };
 int main()
 {
     matrix  ob;
     ob.insize();
    int y= ob.take_matrix();
-   cout<<"sum of diagonal elements of a given matrix ="<<y;
+   cout<<"Sum of diagonal elements of a given matrix = "<<y;
 return 0;
 }
