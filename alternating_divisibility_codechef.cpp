@@ -1,10 +1,7 @@
 #include <iostream>
 using namespace std;
-
-void fun() {
-	// your code goes here
-
-
+void fun() 
+{
 	    int n,value;
 	    cin>>n;
 	    int a[n];
@@ -31,7 +28,6 @@ void fun() {
 	    }
 	    
 	   cout<<"\n"; 
-	
 }
 int main()
 {
