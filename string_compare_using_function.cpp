@@ -10,7 +10,7 @@ using namespace std;
       if(x==0)
       {
       	return true;
-	  }
+      }
 	return false;
   }
 int main()
@@ -23,7 +23,7 @@ int main()
     gets(s2);
     int ans=compare_string(s1,s2);
     if(ans==1)
-    {
+        {
     	cout<<"string is same ";
 	}
 	else
@@ -48,17 +48,18 @@ using namespace std;
       		for(int i  = 0  ; s1[i] != '\0' ; i++)
       		{
       			if(s1[i] != s2[i])
-      			{
+      			        {
       				f=2;
       				break;
 				}
-			}
+		}
+		
 			cout<<"f  =  "<<f<<endl;
 			if(f == 0)
 			{
 				return true;
 			}
-		}
+	}
 	  
 	  return false;
   }
@@ -72,7 +73,7 @@ int main()
     gets(s2);
     int ans=compare_string(s1,s2);
     if(ans==1)
-    {
+        {
     	cout<<"string is same ";
 	}
 	else
