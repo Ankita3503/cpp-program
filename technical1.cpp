@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int d,fine=0;
-    cout<<"enter the no. of days\n";
+    cout<<"Enter the no. of days\n";
     cin>>d;
     if(d<=5)
     {
@@ -16,10 +16,11 @@ int main()
     if(d>10&&d<=15)
     {
         fine=5+10+(d*5);
-    }if(d>15)
+    }
+    if(d>15)
     {
         fine=5+10+25+(d*10);
     }
-    cout<<"fine"<<"="<<fine;
+    cout<<"Fine :- "<<"="<<fine;
     return 0;
 }
