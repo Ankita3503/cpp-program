@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//this is the main function
 int main()
 {
     int i,j ,a[3][3],b[3][3],c[3][3];
