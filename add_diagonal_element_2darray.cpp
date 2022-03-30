@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main()
+    
 {
     int i,j ,row,column;
     cout<<"Enter the no of row and column";
