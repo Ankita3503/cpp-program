@@ -1,39 +1,29 @@
 #include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
+void merge(int a[],int b[],int m,int n)
+{
+	int c[m+n];
+	for(int i=0;i<m;i++)
+	{
+		c[i]=a[i];
+	}
+	for(int i=0;i<n;i++)
+	{
+		c[i+m]=b[i];
+	}
+	sort(c,c+m+n);
+	for(int i=0;i<m+n;i++)
+	{
+		cout<<c[i]<<" ";
+	}	
+}
 int main()
 {
-    int size1,i,k;
-    cout<<"enter the size of first array";
-    cin>>size1;
-    int a[size1];
-    cout<<"enter the elements of first array";
-    for(i=0;i<size1;i++)
-    {
-        cin>>a[i];
-    }
-
-    int size2,j;
-    cout<<"enter the size of second  array";
-    cin>>size2;
-    int b[size2];
-    cout<<"enter the elements of second  array";
-    for(j=0;j<size2;j++)
-    {
-        cin>>b[j];
-    }
-int c[size1+size2];
-for(i=0;i<size1;i++)
-{
-    c[i]=a[i];
-}
-for(j=0;j<size2;j++)
-{
-    c[size1+j]=b[j];
-}
-cout<<"\n";
-for(k=0;k<(size1+size2);k++)
-{
-    cout<<c[k]<<"\t";
-}
-return 0;
+   int a[]={10,15,20,40};
+   int b[]={5,6,6,10,15};
+   int m=sizeof(a)/sizeof(a[0]);
+   int n=sizeof(b)/sizeof(b[0])	;
+   merge(a,b,m,n);
+   return 0;
 }
