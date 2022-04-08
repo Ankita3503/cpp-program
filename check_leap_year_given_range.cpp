@@ -1,6 +1,5 @@
 /*******************************************************
 Statement - Check leap year in a range.
-
 *******************************************************/
 
 #include <iostream>
@@ -14,7 +13,7 @@ int  main(){
     printf("Enter the lowest year: ");
     scanf("%d",&min_year);
 
-    printf("Enter the heighest year: ");
+    printf("Enter the highest year: ");
     scanf("%d",&max_year);
 
     printf("Leap years in given range are: ");
