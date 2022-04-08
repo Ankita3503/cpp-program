@@ -14,9 +14,9 @@ int sum();
  int main()
  {
  	int ch;
- 	cout<<"1. normal calculator\n";
- 	cout<<" 2. scientific calculator\n";
- 	cout<<"enter your choice \n";
+ 	cout<<"1. Normal Calculator\n";
+ 	cout<<" 2. Scientific Calculator\n";
+ 	cout<<"Enter your choice \n";
  	cin>>ch;
  	switch(ch)
  	{
@@ -44,29 +44,29 @@ int sum();
 	cout<<"2. SUBTRACTION\n";
 	cout<<"3. MULTIPLICATION\n";
 	cout<<"4. DIVISION\n";
-	cout<<"enter your choice \n";
+	cout<<"Enter your choice  to perform any calculation \n";
 	cin>>ch;
 	
 	switch(ch)
 	{
 		case 1:
 			ans=sum();
-			cout<<"result is"<<ans;
+			cout<<"Result is"<<ans;
 			break;
 			case 2:
 				ans=sub();
-				cout<<"result is "<<ans;
+				cout<<"Result is "<<ans;
 				break;
 				case 3:
 					ans=multi();
-					cout<<"result is "<<ans;
+					cout<<"Result is "<<ans;
 					break;
 					case 4:
 						ans=divi();
-						cout<<"result is"<<ans;
+						cout<<"Result is"<<ans;
 						break;
 						default:
-							cout<<"try again!!";
+							cout<<"Try Again!!";
 							break;
 	}
 	
@@ -74,25 +74,25 @@ int sum();
 int a,b;
 int sum()
 {
-	cout<<"enter two number for addition";
+	cout<<"Enter two number for addition ";
 	cin>>a>>b;
 	return (a+b);
 }
 int sub()
 {
-	cout<<"enter two number for subtraction";
+	cout<<"Enter two number for subtraction";
 	cin>>a>>b;
 	return (a-b);
 }
 int multi()
 {
-	cout<<"enter two number for multiplication";
+	cout<<"Enter two number for multiplication";
 	cin>>a>>b;
 	return (a*b);
 }
 int divi()
 {
-	cout<<"enter two number for division ";
+	cout<<"Enter two number for division ";
 	cin>>a>>b;
 	return (a/b);
 }
@@ -100,51 +100,51 @@ int divi()
 int choice ;
  void scientific()
  {
- 	cout<< "1.power\n";
- 	cout<<"2. square root\n";
- 	cout<<"3. maximum \n";
- 	cout<<"4. minimum \n";
- 	cout<<"enter your choice \n";
+ 	cout<< "1.Power\n";
+ 	cout<<"2. Square Root\n";
+ 	cout<<"3. Maximum \n";
+ 	cout<<"4. Minimum \n";
+ 	cout<<"Enter your choice \n";
  	cin>>choice ;
  	switch(choice)
  	{
  		case 1:
  			 ans=power();
- 			 cout<<"result is \n"<<ans;
+ 			 cout<<"Result is \n"<<ans;
  			 break;
  		case 2:
  			 ans=root();
- 			 cout<<"result is \n"<<ans;
+ 			 cout<<"Result is \n"<<ans;
  			 break;
  		case 3:
  			 ans=maximum();
- 			 cout<<"result is \n"<<ans;
+ 			 cout<<"Result is \n"<<ans;
  			 break;
  		case 4:
  			 ans=minimum();
- 			 cout<<"result is \n"<<ans;
+ 			 cout<<"Result is \n"<<ans;
  			 break;
  		default:
-		    cout<<"try again\n";
+		    cout<<"Try again\n";
 			break;	 
 	 }
  }
  int x,y;
  int power()
  {
- 	cout<<"enter any two number to calculate power";
+ 	cout<<"Enter any two number to calculate power ";
  	cin>>x>>y;
     return (pow(x,y));
  }
  int root()
  {
- 	cout<<"enter any  number to calculate square root ";
+ 	cout<<"Enter any  number to calculate square root ";
  	cin>>x;
     return (sqrt(x));
  }
  int maximum()
  {
- 	cout<<"enter any two number to find maximum";
+ 	cout<<"Enter any two number to find maximum";
  	cin>>x>>y;
    if( x>y)
    {
@@ -157,7 +157,7 @@ int choice ;
  }
   int minimum()
  {
- 	cout<<"enter any two number to find minimum";
+ 	cout<<"Enter any two number to find minimum";
  	cin>>x>>y;
    if( x>y)
    {
