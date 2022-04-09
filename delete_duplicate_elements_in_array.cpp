@@ -3,17 +3,13 @@ using namespace std;
 int  main()
 {
     int arr[20], i, j, k, size;
-   
-    
     printf("\nEnter array size : ");
     scanf("%d", &size);
-    
     printf("Enter Numbers : \n");
     for (i = 0; i < size; i++)
     {
         scanf("%d", &arr[i]);
     }
-    
     printf("\nArray with Unique list  : ");
     for (i = 0; i < size; i++)
     {
