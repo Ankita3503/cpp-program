@@ -44,7 +44,7 @@ class concate
 int main()
 {
 	concate g1,g3;
-//	cout<<"hii\n";
+//	  cout<<"hii\n";
 	g1.fun("hellO!anki!ta");
 //	g2.fun("anki!ta");
 	    g3  =  g1.operator!();
