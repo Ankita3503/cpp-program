@@ -9,8 +9,8 @@ class concate
   public:
   string a;
   void fun(string x)
-      {
-      a=x;
+         {
+           a=x;
 	  }
 	 void show()
 	  {
