@@ -7,15 +7,15 @@ using namespace std;
 int main()
 {
     int size;
-    cout<<"enter the size \n";
+    cout<<"Enter the size \n";
     cin>>size;
     int a[size];
-    cout<<" array ka elemens \n" ;
+    cout<<" Array ka elements hai \n" ;
     for(int i=0;i<size;i++)
     cin>>a[i];
     int current=0;
     int max_till_now=0;
-    cout<<" maximum subarray sum are :- \n";
+    cout<<" Maximum subarray sum is :- \n";
     for(int i=0;i<size;i++)
     {
         current=current+a[i];
