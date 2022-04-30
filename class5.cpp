@@ -18,14 +18,14 @@ class a
  void fun()
     {
          int  fact=1,i;
-        cout<<"enter any number";
+        cout<<"Enter any number";
         cin>>y;
       
       for(i=y;i>0;i--)
         {
          fact=fact*i;
         }
-        cout<<"factorial="<<fact;
+        cout<<"Factorial="<<fact;
     }
 
 };
