@@ -23,7 +23,7 @@ int main()
                 count++;
             }
         }
-        cout << count << endl;
+         cout << count << endl;
     }
     return 0;
 }
