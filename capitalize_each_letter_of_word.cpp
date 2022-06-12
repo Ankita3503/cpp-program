@@ -5,8 +5,6 @@ using namespace std;
 
  void capitalize_string(char *s1)
   {
-       
-      	
       		for(int i  = 0  ; s1[i] != '\0' ; i++)
       		{
       			if(i==0)
@@ -14,7 +12,7 @@ using namespace std;
       				if(s1[i]>='a' && s1[i]<='z')
       				{
       				    s1[i]=s1[i]-32;
-						  continue;	
+			             continue;	
 					}
 				}
 				if(s1[i]==' ')
@@ -23,7 +21,7 @@ using namespace std;
 				   if(s1[i]>='a' && s1[i]<='z')
       				{
       				    s1[i]=s1[i]-32;
-						  continue;	
+			              continue;	
 					}	
 				}
 				else
@@ -43,7 +41,7 @@ int main()
    
     cout<<"Enter the string  :- \n";
     gets(s1);
-   capitalize_string(s1);
+    capitalize_string(s1);
     cout<<"Capitalize each letter of a word  :-  "<< s1; 
     
  return 0;
